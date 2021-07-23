@@ -1,0 +1,16 @@
+[
+	{
+		"name":"apples",
+		"description":"good ones",
+		"price":25,
+		"manufactured":"25-07-2021",
+		"expired":"30-07-2021"
+	},
+	{
+		"name":"oranges",
+		"description":"good ones",
+		"price":45,
+		"manufactured":"08-07-2021",
+		"expired":"24-07-2021"
+	}
+]
