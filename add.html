@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<div id="product-info">
+	<div id="row">
 
 	</div>
 	<div style="float: right;">
@@ -16,7 +17,11 @@
 			<br>
 			<br>
 			<label>Description:</label>
-			<textarea cols="50" rows="5" name="desc" placeholder="Enter product description" id="desc"></textarea>
+			<textarea cols="30" rows="2" name="desc" placeholder="Enter product description" id="desc"></textarea>
+			<br>
+			<br>
+			<label>Quantity:</label>
+			<input type="number" name="quantity" id="quantity">
 			<br>
 			<br>
 			<label>Price:</label>
@@ -28,17 +33,15 @@
 			<br>
 			<br>
 			<label>Expiry Date:</label>
-			<input type="date" name="exd" id="exd">
+			<input type="date" name="exp" id="exp">
 			<br>
 			<br>
 			<label>Picture:</label>
-			<input type="file" name="image">
+			<input type="file" name="image" id="image">
 			<br>
 			<br>
-			<button id="btn">Submit</button>
-			<!-- <input type="submit" name="Submit" id="btn"> -->
 		</form>
+		<input type="submit" name="Submit" id="btn" onclick="display();">
 	</div>
-	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
